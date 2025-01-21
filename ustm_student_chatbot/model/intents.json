@@ -1,0 +1,1046 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["De Santos","Good evening", "Evening","Good afternoon", "Afternoon","Good morning", "Morning","Hi", "Hello", "Hey", "Good day", "How are you?","What's up?", "How are you?", "How you doing?"],
+        "responses": ["Hi! How can I assist you today?","Hi, I'm here to assist you with any questions or information you need. How can I assist you today?","Hello!", "Good to see you!", "Hi there, how can I help?"]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["Goodbye", "Bye", "See you later", "Talk to you later"],
+        "responses": ["Sad to see you go :(", "Goodbye!", "Come back soon!"]
+  
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who created you?", "Who is your developer?", "Who made you?", "What is your name?", "What should I call you?", "Who are you?","What are you","Introduce Yourself"],
+        "responses": ["I am AI Chatbot developed by Armando Eliseu Phacule, to assist student inquiries about USMT. You call me, De Santos!"]
+  
+      },
+      
+      {
+        "tag": "thank_you",
+        "patterns": ["Thank you", "Thanks"],
+        "responses": ["You're welcome! If you have any more questions, feel free to ask."]
+
+        },
+      {
+        "tag": "university_overview",
+        "patterns": [
+          "What is USTM?",
+          "Tell me about Universidade Sao Tomas de Mozambique.",
+          "What kind of university is USTM?",
+          "Tell me about USTM",
+          "Can you provide a summary of USTM?",
+          "What makes USTM unique?"
+        ],
+        "responses": [
+          "The Universidade Sao Tomas de Mozambique (USTM) is a higher education institution located in Maputo, Mozambique. Established over 14 years ago, USTM aims to be a leading research university, focusing on scientific research, academic excellence, and community service."
+        ]
+      },
+      {
+        "tag": "campus_details",
+        "patterns": [
+          "What facilities does USTM have?",
+          "Can you describe the USTM campus?",
+          "What amenities are available at USTM?"
+        ],
+        "responses": [
+          "USTM's campus features modern classrooms, laboratories, a library, computer labs, and recreational areas. The university also has spaces for cultural and sporting activities to support academic and extracurricular pursuits."
+        ]
+      },
+      
+      {
+        "tag": "research_focus",
+        "patterns": [
+          "What is the research focus of USTM?",
+          "Does USTM have research programs?",
+          "What kind of research is conducted at USTM?",
+          "Can students conduct research at USTM?",
+          "Are there funded research opportunities at USTM?",
+          "How can I join a research project at USTM?",
+          "Does USTM have research labs?",
+          "What are the key research areas at USTM?"
+
+        ],
+        "responses": [
+          "USTM is transitioning into a research-focused university, with initiatives supported by the Department of Investigation, Innovation, and Development. Research areas include education, healthcare, engineering, and social sciences.",
+           "USTM offers research opportunities in areas such as engineering, social sciences, and health. Students can collaborate with faculty on funded projects and access research labs equipped with modern technology. Contact the Research and Innovation Department for more details."
+        ]
+      },
+      {
+        "tag": "language_of_instruction",
+        "patterns": [
+          "What languages are used at USTM?",
+          "Is USTM an English-speaking university?",
+          "Can I study in Portuguese at USTM?"
+        ],
+        "responses": [
+          "Courses at USTM are taught in both Portuguese and English. Business School and Some postgraduate programs include English instruction too. Check specific requirements for details."
+        ]
+      },
+      {
+        "tag": "language_courses",
+        "patterns": [
+          "Does USTM offer language courses?",
+          "Can I learn Portuguese at USTM?",
+          "Are there English classes for non-native speakers at USTM?",
+          "What language programs are available at USTM?",
+          "Can I take advanced language training at USTM?"
+        ],
+        "responses": [
+          "USTM offers language courses, including Portuguese for international students and English for non-native speakers. Advanced training in academic and professional communication is also available."
+        ]
+      },
+      {
+        "tag": "graduate_support",
+        "patterns": [
+          "What support does USTM offer for graduates?",
+          "Are there alumni services at USTM?",
+          "How can I stay connected with USTM after graduation?",
+          "Does USTM help graduates find jobs?",
+          "What resources are available for USTM alumni?"
+        ],
+        "responses": [
+          "USTM provides extensive support for graduates, including job placement assistance, alumni networking events, and lifelong access to career counseling. Alumni can join the USTM Alumni Association for additional resources."
+        ]
+      },
+      {
+        "tag": "scholarships_and_aid",
+        "patterns": [
+          "Does USTM offer scholarships?",
+          "What sholarships does ustm have?",
+          "How can I apply for financial aid at USTM?",
+          "Are there merit-based scholarships at USTM?"
+        ],
+        "responses": [
+          "Contact the financial office for details on that, but as current knowledge USTM offer no Scholarships."
+        ]
+      },
+      {
+        "tag": "study_skills_development",
+        "patterns": [
+          "Does USTM offer study skills workshops?",
+          "How can I improve my study habits at USTM?",
+          "Are there resources for academic success at USTM?",
+          "What support does USTM provide for exam preparation?",
+          "Can I attend time management sessions at USTM?"
+        ],
+        "responses": [
+          "USTM offers study skills workshops, covering time management, ethical behaviour, exam preparation, and effective learning techniques. These sessions are conducted regularly by the Academic Support Office to help students succeed."
+        ]
+      },
+      {
+        "tag": "student_clubs",
+        "patterns": [
+          "What clubs are there at USTM?",
+          "What sports can I play at ustm",
+          "Can I join a student society at USTM?",
+          "Are there any cultural clubs at USTM?"
+        ],
+        "responses": [
+          "USTM offers various student clubs, including the Debate Club, Cultural Society, and sports teams. Students can also start new clubs based on their interests."
+        ]
+      },
+      {
+        "tag": "transportation",
+        "patterns": [
+          "How do I get to USTM?",
+          "Does USTM provide transportation?",
+          "Is parking available at USTM?",
+          "Does USTM provide transportation for students?",
+          "Are there shuttle buses at USTM?",
+          "What are the transport options for USTM students?"
+        ],
+        "responses": [
+          "USTM is accessible via public transportation like minibuses and taxis. Limited shuttle services and parking spaces are available for students and staff."
+        ]
+      },
+      {
+        "tag": "admissions",
+        "patterns": [
+          "When is the application deadline for USTM?",
+          "What are the admission deadlines at USTM?",
+          "How can I apply to USTM?"
+        ],
+        "responses": [
+          "Applications typically open in June and close in October. Check the USTM website for exact dates and application procedures."
+        ]
+      },
+      {
+        "tag": "international_students",
+        "patterns": [
+          "Does USTM accept international students?",
+          "What are the requirements for international students at USTM?",
+          "Is there support for international students at USTM?"
+        ],
+        "responses": [
+          "USTM welcomes international students and offers orientation and advisory services. Requirements include a valid visa, academic qualifications, and language proficiency."
+        ]
+      },
+      
+        {
+        "tag": "contact_information",
+        "patterns": [
+            "What is USTM's main address?",
+            "Where is ustm located?",
+            "How can I contact USTM's main campus?",
+            "What is the headquarters contact information?"
+        ],
+        "responses": [
+            "USTM's headquarters campus is located at Av. Ahmed Sekou Toure 610, Maputo-Mozambique. Contact via:Mobile: +258 82 301 1400 / +258 84 301 3013Email: ustm@ustm.ac.mz Website: ustm.ac.mz"
+        ]
+        },
+        {
+            "tag": "campus_tours",
+            "patterns": [
+              "Can I take a tour of the USTM campus?",
+              "Does USTM offer guided campus tours?",
+              "How do I schedule a visit to USTM?",
+              "Are virtual campus tours available for USTM?",
+              "What can I see during a campus tour at USTM?"
+            ],
+            "responses": [
+              "USTM offers guided campus tours for prospective students and visitors. Tours can be scheduled through the Admissions Office, and virtual tours are available on the USTM website for remote visitors."
+            ]
+          },
+        {
+        "tag": "campus_locations",
+        "patterns": [
+            "What is USTM's main address?",
+            "Where is ustm located?",
+            "How can I contact USTM's main campus?",
+            "What is the headquarters contact information?",
+            "Where are USTM's campuses located?",
+            "What extensions does USTM have?",
+            "How many campuses does USTM have?",
+            "What campuses does USTM have?",
+            "Where are USTM's extensions located?",
+            "Tell me about USTM's locations",
+            "Where can I study at USTM?",
+            "Tell me about the Matola campus",
+            "Where is the Xai-Xai extension?",
+            "How can I contact the Macia campus?",
+            "What is the address of the main campus?",
+            "Give me information about specific USTM campuses",
+            "Where is the college located?",
+            "What is the college address?",
+            "How can I reach the college?"
+        ],
+        "responses": [
+            "USTM has multiple campuses:1. Main Campus in Maputo2. Matola Extension3. Xai-Xai Extension4. Macia Extension. Each has dedicated contact information for inquiries.USTM has multiple campuses: The Headquarters in Maputo (Av. Ahmed Sekou Toure 610), Matola Extension (contact: +258 87 733 2211), Xai-Xai Extension in the Patrice Lumumba Neighborhood, and Macia Extension in Neighborhood 5 Vila da Macia EN 1. Each campus has dedicated contact numbers and email addresses for specific inquiries.",
+            "USTM's headquarters campus is located at Av. Ahmed Sekou Toure 610, Maputo-Mozambique. Contact via:Mobile: +258 82 301 1400 / +258 84 301 3013Email: ustm@ustm.ac.mz Website: ustm.ac.mz",
+             "The college has campuses at multiple locations:1. Maputo (Av. Ahmed Sekou Toure 610)2. Xai-Xai (Bairro Patrice Lumumba)3. Macia (Bairro 5 Vila da Macia EN 1) 4. Matola (Cidade de Matola). Locations are accessible via public transport and listed on Google Maps."
+        ]
+        
+        },
+        {
+            "tag": "extracurricular_certification",
+            "patterns": [
+              "Does USTM provide certificates for extracurricular activities?",
+              "Can I get recognition for participating in events at USTM?",
+              "What benefits do extracurricular activities offer at USTM?",
+              "Are there official records for student achievements at USTM?",
+              "How are student contributions acknowledged at USTM?",
+              "Can I get extra credits?"
+            ],
+            "responses": [
+              "USTM issues certificates, extra credits and recognition for active participation in extracurricular activities. These achievements are added to the student’s official record and can enhance their resume."
+            ]
+          },
+        {
+            "tag": "financial_planning",
+            "patterns": [
+              "How can I plan my finances for studying at USTM?",
+              "Are there budgeting tools for students at USTM?",
+              "Does USTM provide guidance on managing expenses?",
+              "Can I get financial advice as a USTM student?",
+              "What tips does USTM offer for financial planning?"
+            ],
+            "responses": [
+              "USTM offers financial planning workshops and one-on-one consultations to help students manage their expenses effectively. Budgeting tools and resources are available through the Student Support Office."
+            ]
+          },
+        {
+        "tag": "foundation_purpose",
+        "patterns": [
+            "Why was USTM established?",
+            "What is the purpose of USTM's foundation?",
+            "What are the main objectives of USTM?"
+        ],
+        "responses": [
+            "USTM's foundation aims to provide educational opportunities, contribute to poverty eradication, promote research and cultural development, and maintain high academic standards while fostering respect for human dignity."
+        ]
+        },
+        {
+            "tag": "student_governance",
+            "patterns": [
+              "Is there a student government at USTM?",
+              "How can I join the student council at USTM?",
+              "What does the student government at USTM do?",
+              "Does USTM have student representatives?",
+              "Are there leadership opportunities for students at USTM?"
+            ],
+            "responses": [
+              "USTM has an active student government that represents the student body and organizes events. Leadership roles are open to all students through elections held annually. The council works closely with university administration to address student needs."
+            ]
+          },
+        {
+        "tag": "library_services",
+        "patterns": [
+            "What resources are in the USTM library?",
+            "Can I access digital books at USTM?",
+            "How do I borrow books from the USTM library?"
+        ],
+        "responses": [
+            "The USTM library offers books, journals, e-books, and digital databases. Study rooms and computer stations are available. Borrowing requires a valid student ID, and digital resources can be accessed via the library portal."
+        ]
+        },
+        {
+        "tag": "educational_philosophy",
+        "patterns": [
+            "What is USTM's approach to education?",
+            "How does USTM maintain academic standards?",
+            "What is USTM's educational vision?"
+        ],
+        "responses": [
+            "USTM emphasizes rigorous academic standards, specialized knowledge, and integration of moral and civic education. The university fosters professional excellence and supports students with academic potential."
+        ]
+        },
+        {
+        "tag": "institution_symbols",
+        "patterns": [
+            "What are USTM's official symbols?",
+            "Does USTM have a flag, emblem, or anthem?",
+            "What is the meaning behind USTM's symbols?"
+        ],
+        "responses": [
+            "USTM's symbols include the Flag, Emblem, and Anthem, representing the university's identity, values, and mission. The Flag promotes unity, the Emblem features Thomistic values, and the Anthem inspires collective spirit."
+        ]
+        },
+        {
+        "tag": "academic_directorate",
+        "patterns": [
+            "What is the Academic Directorate at USTM?",
+            "What are the responsibilities of the Academic Directorate?",
+            "How is the Academic Directorate structured?"
+        ],
+        "responses": [
+            "The Academic Directorate oversees academic processes, including registration, academic monitoring, and compliance with pedagogical regulations. It comprises two main departments and coordinations for curriculum and pedagogical supervision."
+        ]
+        },
+        {
+        "tag": "student_affairs",
+        "patterns": [
+            "What is the Directorate of Student Affairs?",
+            "How does DAE support students?",
+            "What services does DAE provide?"
+        ],
+        "responses": [
+            "The Directorate of Student Affairs (DAE) manages student well-being, career counseling, orientation programs, and student services. It fosters a healthy academic environment and promotes student engagement."
+        ]
+        },
+        {
+        "tag": "graduation_process",
+        "patterns": [
+            "What is the process for graduation?",
+            "How are end-of-course works defended?",
+            "What is the procedure for getting certificates?"
+        ],
+        "responses": [
+            "Graduation involves curricular internships, TFC defenses, and the issuance of certificates and diplomas. The process is supervised to ensure compliance with academic standards and proper documentation."
+        ]
+        },
+        {
+        "tag": "institution_mission",
+        "patterns": [
+            "What is USTM's mission?",
+            "What does USTM aim to achieve?",
+            "What are USTM's main objectives?"
+        ],
+        "responses": [
+            "USTM's mission is to provide higher education based on humanistic principles and Thomistic traditions, emphasizing research, ethics, and the dignity of the human person while offering quality education at accessible costs."
+        ]
+        },
+        {
+        "tag": "institution_vision",
+        "patterns": [
+            "What is USTM's vision?",
+            "What are USTM's future goals?",
+            "What is USTM's aim in the region?"
+        ],
+        "responses": [
+            "USTM aspires to be a leader in Mozambique and a reference in the region for scientific research, academic excellence, and innovative services."
+        ]
+        },
+        {
+            "tag": "ustm_contact",
+            "patterns": [
+              "How can I contact USTM?",
+              "What is USTM's email address?",
+              "What is USTM's phone number?",
+              "How do I reach USTM?",
+              "What are USTM's contact details?",
+              "Is there a way to reach USTM online?"
+            ],
+            "responses": [
+              "You can contact USTM through multiple channels: Email: ustm@ustm.ac.mz or info@ustm.ac.mz, Landline: +258 21 327 274, Mobile: +258 84 3013013. The main campus is located at Av. Ahmed Sekou Toure 610, RC, Maputo.",
+               "Contact USTM through:Main Campus: +258 82 301 1400 / +258 84 301 3013Email: ustm@ustm.ac.mz Website: ustm.ac.mz. Extension campuses have their own contact details."
+            ]
+          },
+        
+        {
+        "tag": "rector_information",
+        "patterns": [
+            "Who is the Rector of USTM?",
+            "Who is Dr. Wamala?",
+            "What is Dr. Wamala's background?",
+            "What is the Rector's vision for USTM?"
+        ],
+        "responses": [
+            "Dr. Joseph M. Wamala, Rector of USTM, holds a PhD from Ottawa University. He has over two decades of experience in education and is committed to fostering academic excellence and inclusivity at USTM."
+        ]
+        },     
+        {
+        "tag": "college_hours",
+        "patterns": [
+            "What are the college timings?",
+            "When is the college open?",
+            "What are your hours of operation?"
+        ],
+        "responses": [
+            "The college is open from 8am to 8pm, Monday to Friday."
+        ]
+        },
+        {
+          "tag": "academic_departments",
+          "patterns": [
+            "What are the academic departments at USTM?",
+            "What courses are taught at USTM?",
+            "What schools does USTM have?"
+          ],
+          "responses": [
+            "USTM has several academic departments, including Business and Economics, Law, Education, Health Sciences, Engineering, and Social Sciences. Each offers programs designed to meet job market demands."
+          ]
+        },
+        {
+        
+            "tag": "Courses_Offered",
+            "patterns": [
+            "What academic programs and courses are available at the University of Science and Technology of Mozambique?",
+            "Can you provide an overview of the academic offerings at USTM?",
+            "What are the key focus areas and specializations offered by the university?",
+            "What courses are offered in ustm?",
+            "Can you tell me about the available courses?",
+            "What programs does the college offer?",
+            "What are the academic departments at USTM?",
+            "What courses are taught at USTM?",
+            "What schools does USTM have?",
+            "what can I study at ustm"
+            ],
+            "responses": [ " The University of Science and Technology of Mozambique (USTM) offers a diverse range of academic programs across four main faculties: Faculty of Computing and Information Technology:  Bachelor of Computer Science covering areas like programming, algorithms, database management, computer architecture, and software engineering. Faculty of Business and Economics:  Bachelor of Accounting and Auditing with courses in financial accounting, managerial accounting, corporate finance, economics, and business law. Faculty of Liberal Arts and Social Sciences: General education courses in English language, mathematics, and humanities subjects. The university also has several research centers that collaborate with the academic departments. Overall, USTM provides a comprehensive set of academic offerings catering to students interested in computing, business, engineering, and liberal arts.",
+            "USTM has several academic departments, including Business and Economics, Law, Education, Health Sciences, Engineering, and Social Sciences. Each offers programs designed to meet job market demands."
+          ]
+    }, 
+        {
+            "tag": "technology_support",
+            "patterns": [
+            "Does USTM offer IT support?",
+            "Are there computer labs at USTM?",
+            "Can I access Wi-Fi on campus at USTM?",
+            "What technology services are available at USTM?",
+            "Is there technical support for online learning at USTM?"
+            ],
+            "responses": [
+            "USTM provides robust IT support services, including well-equipped computer labs, campus-wide Wi-Fi, and technical assistance for students and faculty. Online learning tools and platforms are also supported by the IT department to enhance the learning experience."
+            ]
+        },
+       
+        {
+        "tag": "hostel",
+        "patterns": [
+            "Does the college provide hostel?",
+            "Where is the hostel located?",
+            "What are the hostel fees?",
+            "Does USTM provide student accommodation?",
+            "Are there hostels on the USTM campus?",
+            "Where can students stay while studying at USTM?",
+            "Is housing available for international students at USTM?",
+            "Can USTM help find accommodation?"
+        ],
+        "responses": [
+            "Students are responsible for arranging their own accommodation as the college does not provide hostel facilities."
+        ]
+        },
+        {
+            "tag": "health_services",
+            "patterns": [
+              "Does USTM have health services?",
+              "Is there a clinic on the USTM campus?",
+              "What health facilities are available for USTM students?",
+              "Can I get medical assistance at USTM?",
+              "Does USTM offer mental health support?"
+            ],
+            "responses": [
+              "USTM provides basic health services, including a campus clinic for minor illnesses and first aid. Counseling and mental health support are also available through the student support services. Students can reach out for assistance during office hours."
+            ]
+          },
+        {
+        "tag": "events_and_activities",
+        "patterns": [
+            "What events are organized in the college?",
+            "Are there any upcoming events?",
+            "Tell me about the college events.",
+            "Are there events for students at USTM?",
+            "Does USTM organize cultural festivals?",
+            "What extracurricular activities does USTM offer?",
+            "Are there sports events at USTM?",
+            "How can I join USTM events?",
+            "What's happening at USTM?",
+            "Are there any upcoming events at USTM?",
+            "What are the latest news from USTM?",
+            "Tell me about USTM's current events"
+            ],
+        "responses": [
+            "USTM regularly hosts various events and programs. Recent highlights include an International Student Mobility Program 2024 offering PhD opportunities in Spain, and academic lectures such as the Lecture on Artificial Intelligence. The university maintains an active calendar of educational and cultural events. For information about events and activities, please visit our college website."
+        ]
+        },
+        {
+            "tag": "campus_safety",
+            "patterns": [
+              "Is USTM a safe campus?",
+              "What security measures are in place at USTM?",
+              "What is USTM's emergency response plan?",
+              "How does USTM handle campus emergencies?",
+              "Are there evacuation drills at USTM?",
+              "What should I do in case of an emergency at USTM?",
+              "Who do I contact for safety concerns at USTM?",
+              "Are there emergency services on the USTM campus?",
+              "Does USTM have campus police?",
+              "How does USTM ensure student safety?"
+            ],
+            "responses": [
+              "USTM prioritizes campus safety with 24/7 security personnel, CCTV surveillance, and controlled access to facilities. Emergency services are available, and students are encouraged to report any concerns to campus security.",
+               "USTM has a comprehensive emergency response plan, including evacuation drills and trained safety personnel. In case of an emergency, students should contact campus security immediately or use the emergency helplines posted around campus."
+            ]
+          },
+          {
+            "tag": "career_fairs",
+            "patterns": [
+              "Does USTM organize career fairs?",
+              "When is the next career fair at USTM?",
+              "What companies attend USTM career fairs?",
+              "How do I prepare for a career fair at USTM?",
+              "Can I network with employers at USTM events?"
+            ],
+            "responses": [
+              "USTM hosts annual career fairs, connecting students with employers from various industries. Workshops on resume building and interview preparation are offered prior to the event. Keep an eye on the university's event calendar for dates and details."
+            ]
+          },
+          
+        {
+        "tag": "admission_process",
+        "patterns": [
+            "What is the admission process?",
+            "How can I take admission in the college?",
+            "What are the admission criteria?"
+        ],
+        "responses": [
+            "The admission process includes submitting an application, meeting program-specific criteria, and attending an interview or test if required. Visit the college website for detailed instructions."
+        ]
+        },
+        {
+        "tag": "placement_records",
+        "patterns": [
+            "How are the placements in the college?",
+            "Tell me about the college placements.",
+            "What is the placement record?"
+        ],
+        "responses": [
+            "The college has a strong placement record with many reputed companies recruiting graduates annually. Placement support is provided through career counseling and campus interviews."
+        ]
+        },
+        {
+        "tag": "college_facilities",
+        "patterns": [
+            "What facilities are available in the college?",
+            "Does ustm have a sports complex?",
+            "What amenities does the college provide?"
+        ],
+        "responses": [
+            "The college provides facilities such as a sports complex, laboratories, a cafeteria, and a library to support both academic and extracurricular activities."
+        ]
+        },
+        {
+        "tag": "academic_support",
+        "patterns": [
+            "Do students use tutoring programs or writing centers?",
+            "Are there resources for academic support?",
+            "How can I get tutoring assistance?"
+        ],
+        "responses": [
+            "Students are encouraged to seek external academic support if needed, as the college focuses on self-driven learning."
+        ]
+        },
+        {
+            "tag": "library_access",
+            "patterns": [
+              "What are the library hours at USTM?",
+              "Can I access the library after hours?",
+              "Does USTM have digital library resources?",
+              "How do I get a library card at USTM?",
+              "Are there study rooms in the library?"
+            ],
+            "responses": [
+              "The USTM library operates from 8:00 AM to 8:00 PM on weekdays and 9:00 AM to 3:00 PM on Saturdays. Students can access digital resources through the library portal. Study rooms are available, and a valid student ID is required to borrow materials."
+            ]
+          },
+          {
+            "tag": "cafeteria_and_dining",
+            "patterns": [
+              "Does USTM have a cafeteria?",
+              "What dining options are available at USTM?",
+              "Can I get vegetarian meals at USTM?",
+              "Are there affordable food options on campus?",
+              "Does USTM provide meal plans?"
+            ],
+            "responses": [
+              "USTM has a cafeteria offering a variety of meals, including vegetarian and halal options. Affordable dining options are available, and meal plans can be arranged through the student affairs office."
+            ]
+          },
+        {
+        "tag": "class_structure",
+        "patterns": [
+            "Are your classes lecture-based or discussion-based?",
+            "What is the typical class format?",
+            "Are there interactive learning methods?"
+        ],
+        "responses": [
+            "Classes vary in structure, with some being lecture-based and others involving discussions and group projects, depending on the course and instructor."
+        ]
+        },
+        {
+        "tag": "collaborative_projects",
+        "patterns": [
+            "How often are group projects required?",
+            "Is there an emphasis on teamwork?",
+            "Are there collaborative work opportunities?"
+        ],
+        "responses": [
+            "Group projects and collaborative assignments are a key part of the learning process, helping students develop teamwork and problem-solving skills."
+        ]
+        },
+          {
+            "tag": "academic_support",
+            "patterns": [
+              "What academic support services does USTM offer?",
+              "Can I get tutoring at USTM?",
+              "Does USTM have a writing center?",
+              "How does USTM support struggling students?",
+              "Are there academic workshops at USTM?"
+            ],
+            "responses": [
+              "USTM offers a variety of academic support services, including tutoring, a writing center, and academic workshops. Faculty advisors are available to guide students, and peer study groups are encouraged. Contact the academic support office for more details."
+            ]
+          },
+          {
+            "tag": "environmental_initiatives",
+            "patterns": [
+              "Does USTM have sustainability programs?",
+              "How is USTM eco-friendly?",
+              "Are there environmental clubs at USTM?",
+              "What green initiatives does USTM support?",
+              "Can students participate in conservation projects at USTM?"
+            ],
+            "responses": [
+              "USTM actively promotes sustainability through recycling programs, energy-saving initiatives, and environmental awareness campaigns. Students can join the Environmental Conservation Group to participate in green projects and events."
+            ]
+          },
+        {
+        "tag": "graduation_statistics",
+        "patterns": [
+            "How many graduates does USTM have?",
+            "What is USTM's gender ratio?",
+            "What are the graduation statistics?"
+        ],
+        "responses": [
+            "USTM has produced over 7,000 graduates, with 75% being female, reflecting its commitment to gender equality and empowerment."
+        ]
+        },
+        {
+            "tag": "digital_learning_resources",
+            "patterns": [
+              "Does USTM have online classes?",
+              "What digital platforms does USTM use?",
+              "Can I access course materials online at USTM?",
+              "Are there e-learning tools at USTM?",
+              "Does USTM support remote learning?"
+            ],
+            "responses": [
+              "USTM offers online learning through platforms like Moodle and Google Meet. Students can access lecture recordings, assignments, and other digital resources. The university also provides training for students unfamiliar with these platforms."
+            ]
+          },
+        {
+        "tag": "study_abroad_opportunities",
+        "patterns": [
+            "Are there study abroad programs?",
+            "Can students spend a semester abroad?",
+            "Is studying abroad popular at USTM?",
+            "Can I study abroad through USTM?",
+            "Does USTM have exchange programs?",
+            "What international partnerships does USTM have?",
+            "Are there study abroad opportunities at USTM?",
+            "Does USTM collaborate with foreign universities?"
+        ],
+        "responses": [
+            "USTM encourages students to explore study abroad opportunities to gain international exposure and experience diverse cultures.",
+            "USTM offers study abroad programs and exchange opportunities through partnerships with international universities. Students can participate in short-term or semester-long exchanges. Contact the International Relations Office for more details."
+        ]
+        },
+        {
+        "tag": "professor_interactions",
+        "patterns": [
+            "Can students meet professors one-on-one?",
+            "Are professors approachable?",
+            "Do professors hold office hours?"
+        ],
+        "responses": [
+            "Professors are generally approachable and available for consultations during office hours. Check with individual faculty members for their schedules."
+        ]
+        },
+        {
+            "tag": "academic_calendar",
+            "patterns": [
+              "What is the academic calendar for USTM?",
+              "When do classes start at USTM?",
+              "What are the semester dates at USTM?",
+              "Can you provide the USTM term schedule?",
+              "When are exams held at USTM?"
+            ],
+            "responses": [
+              "USTM's academic calendar typically begins in February and ends in December, divided into two semesters. Exams are usually held in June and November. Visit the USTM website or contact the registrar for the detailed schedule."
+            ]
+          },
+
+        {
+        "tag": "professor_research",
+        "patterns": [
+            "Are professors available for research with students?",
+            "Can students engage in research projects with faculty?",
+            "How can I get involved in research at your college?"
+        ],
+        "responses": [
+            "Faculty members actively engage in research and often involve students in their projects. Contact professors in your field of interest to explore opportunities."
+        ]
+        },
+        {
+        "tag": "independent_study",
+        "patterns": [
+            "Does your major require an independent study or capstone project?",
+            "Are there opportunities for independent research?",
+            "Is there a culminating project for your major?"
+        ],
+        "responses": [
+            "Many programs offer opportunities for independent study or capstone projects, allowing students to apply their knowledge in practical settings."
+        ]
+        },
+        {
+        "tag": "class_size",
+        "patterns": [
+            "How big are your classes?",
+            "Are the class sizes large or small?",
+            "Do you have small class sizes?"
+        ],
+        "responses": [
+            "Class sizes vary by course and program. Core courses may have larger enrollments, while upper-level and specialized courses often have smaller class sizes for personalized attention."
+        ]
+        },
+        {
+        "tag": "academic_advising",
+        "patterns": [
+            "How satisfied are you with academic advising?",
+            "Is the academic advising program helpful?",
+            "Do advisors provide guidance for course selection?"
+        ],
+        "responses": [
+            "Academic advising is available to help students with course selection, degree planning, and other academic concerns. Advisors ensure students stay on track to meet their goals."
+        ]
+        },
+        {
+        "tag": "college_motto",
+        "patterns": [
+            "What is USTM's motto?",
+            "What is USTM's slogan?",
+            "What guiding phrases does USTM have?"
+        ],
+        "responses": [
+            "USTM's motto is 'To serve and not to be served,' emphasizing community engagement and a commitment to education. The slogan is 'Our students' success is our success.'"
+        ]
+        },
+        {
+        "tag": "technology_integration",
+        "patterns": [
+            "How does USTM integrate technology in education?",
+            "What is the role of technology at USTM?",
+            "Does USTM use modern educational tools?"
+        ],
+        "responses": [
+            "USTM incorporates technology to enhance learning, with resources like e-libraries, online databases, and digital platforms. Technology is integral to supporting innovative teaching and research."
+        ]
+        },
+        {
+        "tag": "community_engagement",
+        "patterns": [
+            "How does USTM engage with the community?",
+            "What is USTM's role in local development?",
+            "Does USTM contribute to society?",
+            "What outreach programs does USTM have?",
+             "Are there volunteer opportunities at USTM?",
+            "Can I join community service programs at USTM?"
+        ],
+        "responses": [
+            "USTM engages with the community through partnerships, research projects, and outreach programs addressing local challenges in health, education, and the environment.",
+            "USTM is committed to community engagement through outreach programs, workshops, and volunteer opportunities. Students and staff regularly participate in initiatives aimed at social development and sustainability."
+
+        ]
+        },
+        {
+        "tag": "ustm_history",
+        "patterns": [
+            "When was USTM established?",
+            "What is the history of USTM?",
+            "Who founded USTM?"
+        ],
+        "responses": [
+            "USTM was established in 2004 by Cardinal Alexandre Jose Maria dos Santos and Mr. Gerardo Rocha Vera to advance education and training in Mozambique."
+        ]
+        },
+        {
+        "tag": "ustm_founders",
+        "patterns": [
+            "Who is Cardinal Alexandre Jose Maria dos Santos?",
+            "Tell me about Gerardo Rocha Vera.",
+            "Who were the founders of USTM?"
+        ],
+        "responses": [
+            "USTM was founded by Cardinal Alexandre Jose Maria dos Santos, former Archbishop Emeritus of Maputo, and Mr. Gerardo Rocha Vera, a strong advocate for education and social development."
+        ]
+        },
+        {
+        "tag": "ustm_anthem",
+        "patterns": [
+            "What is USTM's anthem about?",
+            "When is USTM's anthem performed?",
+            "What does USTM's anthem represent?"
+        ],
+        "responses": [
+            "USTM's anthem is performed at significant events and highlights the university's commitment to knowledge, ethics, and societal transformation. It fosters unity and pride among students and faculty."
+        ]
+        },
+        {
+        "tag": "professor_quality",
+        "patterns": [
+            "Are professors good teachers?",
+            "How is the quality of teaching at USTM?",
+            "Do you have experienced faculty?"
+        ],
+        "responses": [
+            "USTM takes pride in its experienced and dedicated faculty who are committed to providing high-quality education and mentoring students."
+        ]
+        },
+        {
+        "tag": "student_support",
+        "patterns": [
+            "What student support services are available?",
+            "Does USTM provide counseling services?",
+            "How does USTM help students in need?",
+            "Does USTM offer career guidance?",
+            "Are there internship opportunities at USTM?",
+            "How can USTM help with job placements?",
+            "What career resources are available for USTM students?",
+            "Does USTM have a career office?"
+        ],
+        "responses": [
+            "USTM offers support services including academic counseling, career guidance, and wellness programs to ensure students have a positive and productive learning experience.",
+             "USTM's career services include job placement assistance, career counseling, and internship opportunities. The Career Development Office organizes workshops, networking events, and career fairs to help students prepare for the job market."
+        ]
+        },
+        {
+        "tag": "student_life",
+        "patterns": [
+            "What is student life like at USTM?",
+            "What can students expect on campus?",
+            "Does USTM offer a vibrant student experience?"
+        ],
+        "responses": [
+            "Student life at USTM is dynamic, with opportunities for academic growth, community engagement, and participation in diverse cultural and recreational activities."
+        ]
+        },
+        {
+            "tag": "student_wellness_programs",
+            "patterns": [
+              "Does USTM have wellness programs?",
+              "Are there mental health resources at USTM?",
+              "What support is available for student well-being?",
+              "Does USTM offer fitness programs?",
+              "Can I talk to a counselor at USTM?",
+              "Are there counselors available at USTM?",
+                "Does USTM provide mental health support?",
+                "Can I talk to someone about personal issues at USTM?",
+                "What counseling services does USTM offer?",
+                "How do I book a session with a counselor at USTM?"
+            ],
+            "responses": [
+              "USTM prioritizes student wellness with mental health counseling, fitness programs, and stress management workshops. Wellness resources are available through the Student Support Office. Appointments with counselors can be booked confidentially.",
+              "USTM provides confidential counseling services for students dealing with personal, academic, or mental health challenges. Appointments can be booked through the Student Wellness Office."
+            ]
+          },
+        {
+            "tag": "ustm_statistics",
+            "patterns": [
+              "How many courses does USTM offer?",
+              "What are USTM's numbers?",
+              "How many students are at USTM?",
+              "How many graduates does USTM have?",
+              "What are the key statistics of USTM?"
+            ],
+            "responses": [
+              "USTM offers 37 different courses, serves approximately 9,800 students, and has produced 7,131 graduates."
+            ]
+          },
+          
+        {
+        "tag": "contact_alumni",
+        "patterns": [
+            "How can I contact USTM alumni?",
+            "Does USTM have an alumni network?",
+            "Can students connect with alumni for guidance?",
+            "Does USTM have an alumni association?",
+            "Can I connect with USTM alumni?",
+            "What benefits do USTM alumni get?",
+            "How can I join the USTM alumni network?",
+            "Are there alumni events at USTM?"
+        ],
+        "responses": [
+            "USTM maintains an active alumni network that students can connect with for mentorship and career advice. Contact the student affairs office for more information.",
+            "USTM has an active alumni association that organizes events, networking opportunities, and career support for graduates. Alumni can join by registering on the USTM website. The association also provides mentoring for current students."
+        ]
+        },
+        {
+            "tag": "student_feedback",
+            "patterns": [
+              "How can I give feedback at USTM?",
+              "Does USTM have a suggestion box?",
+              "Can students share their opinions at USTM?",
+              "How does USTM handle student complaints?",
+              "Is there a feedback system at USTM?"
+            ],
+            "responses": [
+              "USTM encourages students to provide feedback through the online portal or suggestion boxes located on campus. The university also holds regular forums and meetings to address student concerns and gather opinions."
+            ]
+          },
+          
+          {
+            "tag": "default_unknown",
+            "patterns": [],
+            "responses": [
+              "I don't have information on this topic. For accurate details, you may refer to USTM's official resources or contact support."
+            ]
+          },        
+          {
+            "tag": "tuition_fee_information",
+            "patterns": [
+              "What are the tuition fees for USTM students?",
+              "Can you provide the tuition fee table for USTM?",
+              "How much is the tuition for the Faculty of Information Technology Sciences?",
+              "What are the tuition fees for new enrollments in 2024?",
+              "What is the tuition fee breakdown by faculty at USTM?",
+              "How much is tuition for returning students?",
+              "What are the tuition fees for the Business School?",
+              "What are the tuition fees at USTM?",
+              "How much does each program cost at USTM?",
+              "Are there additional fees for international students at USTM?"
+            ],
+            "responses": [
+              "Here is the tuition fee table for students registered until 2023:\n\nOrd | Faculties | Value\n1 | Faculty of Information Technology Sciences | 4,725.00Mt\n2 | Faculty of Ethics and Human Sciences | 4,725.00Mt\n3 | Faculty of Economic and Business Sciences | 5,670.00Mt\n4 | Faculty of Law | 5,670.00Mt\n5 | Faculty of Tourism | 5,670.00Mt\n6 | Faculty of Agriculture | 5,670.00Mt\n7 | Business School | 5,670.00Mt\n\nAnd for new enrollments in 2024:\n\nOrd | Faculties | Value\n1 | Faculty of Information Technology Sciences | 6,300.00Mt\n2 | Faculty of Ethics and Human Sciences | 5,670.00Mt\n3 | Faculty of Economic and Business Sciences | 5,670.00Mt\n4 | Faculty of Law | 5,670.00Mt\n5 | Faculty of Tourism | 5,670.00Mt\n6 | Faculty of Agriculture | 5,670.00Mt\n7 | Business School | 7,875.00Mt\n\nAll fees include VAT.",
+              "Undergraduate fees range from 50,000 to 75,000 MZN annually, while postgraduate fees are between 80,000 and 120,000 MZN. Additional costs may include registration and material fees."
+            ]
+          },
+          {
+            "tag": "dress_code_guidelines",
+            "patterns": [
+              "What is the dress code for USTM students?",
+              "Are there restrictions on what I can wear at USTM?",
+              "Can students wear sunglasses in class?",
+              "What clothing is prohibited at USTM?",
+              "Is there a dress code for extracurricular activities?",
+              "Are lab coats mandatory for health students?",
+              "What are the guidelines for student presentation at USTM?"
+            ],
+            "responses": [
+              "At USTM, the dress code and presentation guidelines aim to maintain a professional appearance. The following are prohibited:\n\n- Shorts, mini-dresses, bermuda shorts, tight-fitting clothes\n- Revealing or see-through clothes\n- Transparent and decorative clothes\n- Sweatshirts, ragged and tight tops\n- Extremely tight, sensual, and scandalous clothing\n\nAdditionally, sunglasses and hats are not allowed in classrooms and other academic areas, unless medically recommended.\n\nExceptions:\n- Dress for extracurricular activities not in the academic scope\n- Public Health and Psychology students must wear a lab coat.\n\nCompliance with this regulation is mandatory."
+            ]
+          },
+          {
+            "tag": "behavior_guidelines",
+            "patterns": [
+              "What behaviors are prohibited at USTM?",
+              "Can I smoke on the USTM campus?",
+              "Are students allowed to drink alcohol on campus?",
+              "What are the behavior guidelines for USTM students?",
+              "Is drug consumption allowed at USTM?",
+              "Can I sell cigarettes at USTM?"
+            ],
+            "responses": [
+              "USTM prohibits behaviors and attitudes incompatible with academic environments, including:\n\n- Consumption and sale of alcoholic beverages, cigarettes (including electronic), drugs, and psychotropic substances.\n\nThis applies to all areas of the university campus, including the parking lot. Full compliance with this regulation is required."
+            ]
+          },
+          
+            {
+              "tag": "academic_service_fees",
+              "patterns": [
+                "What are the academic service fees for undergraduate courses at USTM's Business School in 2024?",
+                "Can I get a list of all academic service fees for 2024 at the Business School?",
+                "What are the fees for documents like certificates, declarations, and exams at USTM's Business School?",
+                "How much is the fee for an academic completion certificate at USTM?",
+                "What is the fee for a visa application declaration at USTM?",
+                "How much do I need to pay for a grade report declaration at USTM?",
+                "What is the fee for a semester enrollment at the Business School?",
+                "What is the cost for a special exam at USTM Business School?"
+              ],
+              "responses": [
+                "The academic service fees for undergraduate courses at USTM's Business School in 2024 include a variety of fees for certificates, declarations, exams, and enrollments. For example:\n\n1. Academic Completion Certificate: 1,050.00 MT\n2. Visa Application Declaration (1st and 2nd copy): 3,500.00 MT and 1,150.00 MT respectively\n3. Course Completion Declaration: 5,250.00 MT\n4. Semester Enrollment: 3,150.00 MT\n5. Special Exam: 2,100.00 MT\n6. Thesis Delivery Fee: 1,050.00 MT\n\nYou can access the full list through the Business School's official documentation or portal."
+              ]
+            },
+            {
+              "tag": "business_school_structure",
+              "patterns": [
+                "Can you tell me about the structure of the Business School?",
+                "Who is the director of the Business School?",
+                "Who coordinates undergraduate courses at USTM's Business School?",
+                "Who are the administrative assistants at the Business School?",
+                "What is the role of Lazarus Machevela at USTM?"
+              ],
+              "responses": [
+                "The structure of the Business School at USTM includes several key positions:\n\n1. Director of the Business School: Paulina Quemba\n2. Coordinator of Undergraduate Courses in the Post-Labor Period: Lazarus Machevela\n3. Coordinator of Undergraduate Courses in the Labor Period: Noemia S. Irrape\n4. Administrative Assistant: Salim R. Nhantumbo\n5. Administrative Assistant: Olivio O. Chilembé"
+              ]
+            },
+            {
+              "tag": "business_school_mission_statement",
+              "patterns": [
+                "What is the mission statement of USTM's Business School?",
+                "How can I submit a mission statement request at the Business School?",
+                "Can you provide the details for filling out the mission statement form?",
+                "What information is required on the Business School mission statement form?"
+              ],
+              "responses": [
+                "The mission statement form for USTM's Business School requires the following information:\n\n1. Your full name\n2. Nationality\n3. Address\n4. Telephone number\n5. Student code\n6. Course and class\n7. Shift\n\nAt the end of the form, there is a section for approval where you must sign and date the form."
+              ]
+            }
+           
+          
+                    
+    
+    ]
+  }
+  

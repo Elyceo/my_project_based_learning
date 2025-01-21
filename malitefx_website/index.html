@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaliteFx</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./favicon/MaliteFx-favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+    <!--local bootstrap-->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    <style>
+        .carousel-container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 620px;
+            filter: blur(2px);
+            transform: scale(0.8);
+            transition: 0.3s;
+        }
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            border-radius: 25px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+        .swiper-slide-active {
+            filter: blur(0px);
+            transform: scale(1);
+        }
+        @media (max-width: 768px) {
+            .swiper-slide {
+                width: 250px;
+                height: 517px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="popup">
+        This site is still under construction by <em class="mytag"><a src="#">easyaspy-sys</a></em>
+    </div>
+    <nav class="mynavbar">
+        <div class="nav-content">
+            <a href="#" id="nav-logo" class="logo navlogo" ><em>M</em>alite<em>Fx</em></a>
+            <div class="nav-links">
+                <a href="#testament">Our-Testaments</a>
+                <a href="#directions">Our-Framwork</a>
+                <a href="./contact-page.html">Contact-Us</a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class=" bgimg-1 hero-section">
+        <div class=""></div>
+        <div class="hero-container">
+            <div class="hero-text">
+                <div class="hero-text-1">Malite Trading and Signal Experts</div>
+                <div id="typing-container">
+                    <span id="typed-text"></span><span id="cursor"></span>
+                </div>
+                <div class="hero-text-3">Trade with you while you earn!</div>
+                <a href="https://linktr.ee/Elyceo_tr" ><button  class="hero-button">Join Our Community Now!</button></a>
+            </div>
+            <div class="hero-image" style="text-align: center; display: block;">
+                <div>
+                    <img src="favicon/MaliteFx-favicon.png" alt="malitefx logo">
+                </div>
+                <p  class="motto logo"><em>Trade differnt, trade malitefx.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!--join community floating button-->
+    <a href="https://linktr.ee/Elyceo_tr" id="communityButton" target="_blank">Join our community</a>
+    
+    <section id="testament" class="about-section bgimg-2">
+        <h2 class="hero-text-3">Over 300+ Pro forex traders use <span class="logo"><em>M</em>alite<em>Fx</em></span>.</h2>
+        <div class="about-content">
+           
+            <!--<div class="image-placeholder"> <img src="./temp/malitephotos.png" class="testament-image" alt="testament photos"></div>
+            -->
+            
+                        <!-- Carousel -->
+                        <div class="carousel-container">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="temp\screenshot_1.jpg" alt="iPhone Screenshot 1">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="temp\screenshot_2.jpg" alt="iPhone Screenshot 2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="temp/screenshot_3.jpg" alt="iPhone Screenshot 3">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                    <!-- <div id="testimonials-window" class="testimonials-window">
+                        <div id="testimonials-container" class="testimonials"></div>
+                    </div> -->
+                </div>
+    </section>
+
+    <section id="why" class="why-section bgimg-1">
+        <div class="reason-title">Why Traders Choose <span class="logo"><em>M</em>alite<em>Fx</em></span> ?</div>
+        <div class="reason-container">
+            <div class="reason-content">
+                <div class="in-heading">Open Community</div>
+                <div class="in-text">Our team consists of highly experienced traders. Who share authentic signals in our groups</div>
+            </div>
+            <div class="reason-content">
+                <div class="in-heading">Comprehensive Mentoring</div>
+                <div class="in-text">Learn through our detailed and thorough private mentoring program.</div>
+            </div>
+            <div class="reason-content">
+                <div class="in-heading">Any Day Assistance</div>
+                <div class="in-text">Get support whenever you need it. When you need it.</div>
+            </div>
+        </div>
+        <div>
+            <video class="vid" width="60%"  autoplay muted playsinline controls>
+                <source src="./temp/trading_vid.mp4" type="video/mp4">
+                <source src="./temp/trading_vid.ogg" type="video/ogg">
+                Your browser does not support HTML video.
+            </video>
+        </div>
+          
+    </section>
+
+    <section id="directions" class=" directions-section bgimg-2">
+        <h2 class="directions-title hero-text-3">How it works.</h2>
+        <div>
+            <div class="reason-content">
+                <div class="in-heading">Join Our Open Community</div>
+                <p>Stay free and recieved regular trading signals or Upgrade to our Primium Service with more  exclusive signals, material and mentorship</p>
+                <div class="in-heading">Upgrading is easy as 123</div>
+            </div>
+        </div>
+        <div class="directions-buttons">
+            <em class="counting">1.</em>
+            <button id="purchase-btn" class="hero-button">Purchase Package</button>
+            <em class="counting">2.</em>
+            <button id="get-link-btn" class="hero-button">Level-up Access</button>
+            <em class="counting">3.</em>
+            <button id="access-btn" class="hero-button">Get extra signals plus lessons</button>
+        </div>
+        <div>
+            <div style="margin-top: 1em;" class="reason-content">
+                <div class="in-heading">Want <span class="logo">MaliteFx</span> to trade for you...? We do that too!</div>
+                
+            </div>
+        </div>
+        <div class="directions-footer slogon-home">
+            <a href="#" style="color:#333;margin-top:100px; text-decoration:none;">It's <span class="logo" style="margin-right:10px;">Easy!</span> Are you ready to start?</a>
+        </div>
+    </section>
+
+    <footer>
+        
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            loop: true,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 4,
+                slideShadows: false,
+            },
+            
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+</body>
+</html>

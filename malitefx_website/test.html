@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaliteFx Trading and Signal Expert</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #f8f8f8;
+        }
+        .nav-links a {
+            margin-left: 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        .hamburger {
+            display: none;
+        }
+        .hero-section, .about-section, .directions-section {
+            min-height: 100vh;
+            padding: 4rem 2rem;
+            box-sizing: border-box;
+        }
+        .hero-section {
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+        }
+        .hero-content {
+            flex: 2;
+            padding-right: 2rem;
+        }
+        .hero-image {
+            flex: 1;
+            background-color: #ddd; /* Placeholder color */
+            height: 100vh;
+        }
+        .hero-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .hero-text {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        .cta-button {
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+        .about-section {
+            padding: 4rem 2rem;
+        }
+        .about-title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .about-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        .image-placeholder, .testimonials-window {
+            width: 45%;
+            height: 300px;
+        }
+        .image-placeholder {
+            background-color: #ddd;
+        }
+        .testimonials-window {
+            position: relative;
+            overflow: hidden;
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .testimonial {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        .testimonial.active {
+            opacity: 1;
+        }
+        .trade-malitefx {
+            color: blue;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .directions-section {
+            background-color: rgba(255, 255, 255, 0.8);
+            position: relative;
+        }
+        .directions-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 4rem;
+        }
+        .directions-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .direction-btn {
+            background-color: blue;
+            color: white;
+            border: 2px solid blue;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .direction-btn:hover {
+            background-color: transparent;
+            color: blue;
+        }
+        #purchase-btn, #access-btn {
+            width: 200px;
+        }
+        #get-link-btn {
+            position: relative;
+            top: -30px;
+            width: 120px;
+        }
+        .directions-footer {
+            text-align: center;
+            margin-top: 4rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-content">
+        <a href="#" class="logo">Logo</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()"></div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Malite trading and signal Experts</h1>
+            <p class="hero-text">Let MaliteFx trade for you while you earn</p>
+            <button class="cta-button">Let's go</button>
+        </div>
+        <div class="hero-image">
+            <!-- Image will go here -->
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="about-title">Over 300 Investor and forex trader trust MaliteFx</h2>
+        <div class="about-content">
+            <div class="image-placeholder"></div>
+            <div id="testimonials-window" class="testimonials-window">
+                <div class="testimonial">MaliteFx has transformed my trading experience!</div>
+                <div class="testimonial">I've seen remarkable returns with MaliteFx's signals.</div>
+                <div class="testimonial">The expert guidance from MaliteFx is unparalleled.</div>
+                <div class="testimonial trade-malitefx">Trade MaliteFx</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="directions" class="directions-section">
+        <h2 class="directions-title">How it works</h2>
+        <div class="directions-buttons">
+            <button id="purchase-btn" class="direction-btn">Purchase Package</button>
+            <button id="get-link-btn" class="direction-btn">Get link</button>
+            <button id="access-btn" class="direction-btn">Access signals and lessons</button>
+        </div>
+        <div class="directions-footer">
+            It's easy! Are you ready to start?
+        </div>
+    </section>
+
+    <script>
+        const testimonials = document.querySelectorAll('.testimonial');
+        let currentIndex = 0;
+
+        function showTestimonial(index) {
+            testimonials.forEach((testimonial, i) => {
+                if (i === index) {
+                    testimonial.classList.add('active');
+                } else {
+                    testimonial.classList.remove('active');
+                }
+            });
+        }
+
+        function nextTestimonial() {
+            currentIndex = (currentIndex + 1) % testimonials.length;
+            showTestimonial(currentIndex);
+        }
+
+        // Initial display
+        showTestimonial(currentIndex);
+
+        // Change testimonial every 3 seconds
+        setInterval(nextTestimonial, 3000);
+
+        function toggleMenu() {
+            // Implement menu toggle functionality here
+            console.log('Menu toggled');
+        }
+    </script>
+</body>
+</html>
